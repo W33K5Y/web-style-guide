@@ -9,3 +9,13 @@
 	max-width: $m-width;
 }
 
+@mixin mq($break){
+	$value:$break;
+	@if $value == $break {
+		@media (min-width: 768px) {
+				@content
+		}
+	}
+
+}
+

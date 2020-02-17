@@ -1,15 +1,26 @@
 .btn {
-  margin-top: 15px;
-  width: 100%;
-  color: #fff;
-  border: none;
-  padding: 10px 0;
-  text-transform: uppercase;
-  border-radius: 5px;
+ @include mq($break) {
+  padding: 10px 30px;
+}
+margin-top: 15px;
+width: 100%;
+color: $white;
+border: none;
+padding: 10px 0;
+text-transform: uppercase;
+border-radius: 5px;
+
+&+.btn {
+ @include mq($break) {
+  margin-left: 10px;
+  border: solid red 2px;
+}
+}
 }
 
+
 .default {
-  background-color: #51ddfc;
+  background-color: $color-secondary;
 }
 
 .error {

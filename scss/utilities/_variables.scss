@@ -2,8 +2,12 @@
 // Colors
 
 $color-primary:#58e1c1;
+$color-primary-light: lighten($color-primary, 10%);
 $color-secondary:#51ddfc;
+$color-secondary-hov: complement($color-secondary);
 $color-shade:#777;
+$white:#fff;
+$grey-shade:#ccc;
 
 
 // Media Quieries

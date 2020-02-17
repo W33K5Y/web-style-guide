@@ -7,7 +7,7 @@
 .img-frame {
 @include display-look(block,10px auto, 100%);
   padding: 13px;
-  border: 1px solid #ccc;
+  border: 1px solid $grey-shade;
 }
 
 .img-logo {

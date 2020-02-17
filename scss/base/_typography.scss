@@ -6,25 +6,29 @@
 
 p {
   line-height: 1.45em;
+  a {
+    text-decoration: none;
+  }
 }
 
-a {
-  text-decoration: none;
-}
-
-.headline-primary {
-  color: $color-primary;
-  margin-left: 10px;
-}
-
-.headline-secondary {
-  font-weight: 300;
-  color: $color-shade;
+.headline {
+  &-primary {
+    color: $color-primary;
+    margin-left: 10px;
+  }
+  &-secondary {
+    font-weight: 300;
+    color: $color-shade;
+  }
 }
 
 .link {
   color: $color-secondary;
   font-weight: 700;
+
+  &:hover {
+    color:$color-secondary-hov;
+  }
 }
 
 .blockquote {
