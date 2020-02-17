@@ -1,0 +1,11 @@
+
+@mixin display-look(
+	$display: null,
+	$margin: null,
+	$m-width: null) {
+
+	display: $display;
+	margin:$margin;
+	max-width: $m-width;
+}
+
