@@ -1,5 +1,7 @@
+///========================
+//// Colors
+// ========================
 
-// Colors
 
 $color-primary:#58e1c1;
 $color-primary-light: lighten($color-primary, 10%);
@@ -9,6 +11,29 @@ $color-shade:#777;
 $white:#fff;
 $grey-shade:#ccc;
 
-
+///========================
 // Media Quieries
+// ========================
+
 $break	: '(min-width:768px)';
+
+///========================
+// loop for .btn 
+// ========================
+$btn-class: (
+	'.default':  lighten(#51ddfc, 10%),
+	'.error':    lighten(#e4757a, 10%),
+	'.info':     lighten(#927bc1, 10%),
+	'.success':	 lighten(#63cc82, 10%),
+	'.warning':  lighten( #fd7856, 10%));
+
+
+
+
+
+
+
+
+
+
+

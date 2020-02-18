@@ -19,3 +19,15 @@
 
 }
 
+// @mixin hov-lighten($btn-attr){
+// 		$value: map-get($btn-class, $btn-attr);
+// 		$default:map-get($btn-class, $color-default-light);
+
+// 	@if $value == $default {
+// 		background-color: red;
+// 	}
+
+// 	@else {
+// 		background-color: blue;
+// 	}
+// }

@@ -377,69 +377,6 @@ p a {
   border-radius: 5px;
 }
 
-.btn {
-  margin-top: 15px;
-  width: 100%;
-  color: #fff;
-  border: none;
-  padding: 10px 0;
-  text-transform: uppercase;
-  border-radius: 5px;
-}
-@media (min-width: 768px) {
-  .btn {
-    padding: 10px 30px;
-  }
-}
-@media (min-width: 768px) {
-  .btn + .btn {
-    margin-left: 10px;
-    border: solid red 2px;
-  }
-}
-
-.default {
-  background-color: #51ddfc;
-}
-
-.error {
-  background-color: #e4757a;
-}
-
-.info {
-  background-color: #927bc1;
-}
-
-.success {
-  background-color: #63cc82;
-}
-
-.warning {
-  background-color: #fd7856;
-}
-
-.form {
-  flex-basis: 100%;
-}
-
-.input {
-  display: block;
-  width: 94%;
-  margin: 10px auto 0;
-  border: none;
-  padding: 10px;
-  border-bottom: 5px solid #58e1c1;
-}
-
-.hidden {
-  position: absolute;
-  left: -10000px;
-  top: auto;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-}
-
 .container {
   padding: 0 10px;
 }
@@ -570,6 +507,26 @@ p a {
   background-color: #83e9d1;
 }
 
+.form {
+  flex-basis: 100%;
+}
+.form .input {
+  display: block;
+  width: 94%;
+  margin: 10px auto 0;
+  border: none;
+  padding: 10px;
+  border-bottom: 5px solid #58e1c1;
+}
+.form .hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
 .img-avatar {
   display: block;
   margin: 10px auto;
@@ -588,6 +545,66 @@ p a {
 .img-logo {
   display: block;
   margin: 10px auto;
+}
+
+.btn {
+  margin-top: 15px;
+  width: 100%;
+  color: #fff;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+@media (min-width: 768px) {
+  .btn {
+    padding: 10px 30px;
+  }
+}
+@media (min-width: 768px) {
+  .btn + .btn {
+    margin-left: 10px;
+  }
+}
+
+.default:hover {
+  background-color: #83e7fd;
+}
+
+.error:hover {
+  background-color: #eca0a3;
+}
+
+.info:hover {
+  background-color: #af9ed1;
+}
+
+.success:hover {
+  background-color: #89d9a1;
+}
+
+.warning:hover {
+  background-color: #fea088;
+}
+
+.default {
+  background-color: #51ddfc;
+}
+
+.error {
+  background-color: #e4757a;
+}
+
+.info {
+  background-color: #927bc1;
+}
+
+.success {
+  background-color: #63cc82;
+}
+
+.warning {
+  background-color: #fd7856;
 }
 
 @media (min-width: 768px) {
@@ -641,6 +658,11 @@ p a {
 
   .col-12 {
     flex-basis: 100%;
+  }
+
+  .logo {
+    margin-left: initial;
+    margin-right: initial;
   }
 }
 
