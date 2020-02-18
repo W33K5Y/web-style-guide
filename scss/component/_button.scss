@@ -16,6 +16,16 @@ border-radius: 5px;
 }
 }
 }
+///===========================
+// loop for .btn & btn hover
+// ===========================
+
+@each $class, $color in $btn-standard {
+  #{$class} {
+    background-color: $color;
+    transition: background-color .3s ease-in-out;
+  }
+}
 
 @each $class, $color-eff in $btn-class {
   #{$class}:hover {
@@ -23,38 +33,7 @@ border-radius: 5px;
   }
 }
 
-.default {
-  background-color: $color-secondary;
-}
 
-.error {
-  background-color: #e4757a;
-}
-
-.info {
-  background-color: #927bc1;
-}
-
-.success {
-  background-color: #63cc82;
-}
-
-.warning {
-  background-color: #fd7856;
-}
-
-// @each $color-btn in $color-button {
-// 	.btn:hover {
-// 		background-color:#{$color-btn};
-// 	}
-// }
-
-
-// @each $btn-name in $btn-class {
-//   #{$btn-name}:hover {
-
-//   }
-// }
 
 
 

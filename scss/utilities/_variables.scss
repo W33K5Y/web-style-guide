@@ -18,8 +18,9 @@ $grey-shade:#ccc;
 $break	: '(min-width:768px)';
 
 ///========================
-// loop for .btn 
+// map for .btn 
 // ========================
+
 $btn-class: (
 	'.default':  lighten(#51ddfc, 10%),
 	'.error':    lighten(#e4757a, 10%),
@@ -27,9 +28,32 @@ $btn-class: (
 	'.success':	 lighten(#63cc82, 10%),
 	'.warning':  lighten( #fd7856, 10%));
 
+$btn-standard: (
+	'.default':  #51ddfc, 
+	'.error':    #e4757a, 
+	'.info':     #927bc1, 
+	'.success':	 #63cc82, 
+	'.warning':   #fd7856,
+	);
 
+///========================
+// map for .btn 
+// ========================
 
-
+$grid-map: (
+'.theme.col-1':		#927bc1,			
+'.theme.col-2':		#fd7856,
+'.theme.col-3':		#deb2ee,
+'.theme.col-4':		#7ee6fd,
+'.theme.col-5':		#88d9a0,
+'.theme.col-6':		#4da2bb,
+'.theme.col-7':		#ec9fa3,
+'.theme.col-8':		#fd9f85,		
+'.theme.col-9':		#e4757a,
+'.theme.col-10':	#63cc82,
+'.theme.col-11':	#51ddfc,
+'.theme.col-12':	#80e8d1,
+);
 
 
 
